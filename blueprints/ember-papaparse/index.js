@@ -4,6 +4,6 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('papaparse', '~4.1.2'));
+    return this.addBowerPackageToProject('papaparse', '~4.1.2');
   }
 };
