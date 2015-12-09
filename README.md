@@ -1,7 +1,12 @@
 # Ember-papaparse
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/suchitadoshi1987/ember-papaparse.svg)](https://travis-ci.org/suchitadoshi1987/ember-papaparse)
+An ember-cli shim for [papaparser.js](http://papaparse.com/), allowing it to be consumed as an ES6 module
 
+```js
+import PapaParse from 'papaparse';
+
+```
 ## Installation
 
 * `git clone` this repository
