@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'papaparser',
+  name: 'papaparse',
   included: function(app) {
     this._super.included.apply(this, arguments);
 
