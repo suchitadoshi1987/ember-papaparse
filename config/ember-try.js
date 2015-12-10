@@ -1,4 +1,3 @@
-/*jshint node:true*/
 module.exports = {
   scenarios: [
     {
@@ -6,30 +5,84 @@ module.exports = {
       dependencies: { }
     },
     {
-      name: 'ember-release',
+      name: 'ember-1.10',
       dependencies: {
-        'ember': 'components/ember#release'
+        ember: '~1.10.0'
       },
       resolutions: {
-        'ember': 'release'
+        ember: '~1.10.0'
+      }
+    },
+    {
+      name: 'ember-1.11',
+      dependencies: {
+        ember: '~1.11.0'
+      },
+      resolutions: {
+        ember: '~1.11.0'
+      }
+    },
+    {
+      name: 'ember-1.12',
+      dependencies: {
+        ember: '~1.12.0'
+      },
+      resolutions: {
+        ember: '~1.12.0'
+      }
+    },
+    {
+      name: 'ember-1.13',
+      dependencies: {
+        ember: '~1.13.0'
+      },
+      resolutions: {
+        ember: '~1.13.0'
+      }
+    },
+    {
+      name: 'ember-2.0',
+      dependencies: {
+        ember: '~2.0.0'
+      },
+      resolutions: {
+        ember: '~2.0.0'
+      }
+    },
+    {
+      name: 'ember-2.1',
+      dependencies: {
+        ember: '~2.1.0'
+      },
+      resolutions: {
+        ember: '~2.1.0'
+      }
+    },
+    {
+      name: 'ember-release',
+      dependencies: {
+        ember: 'components/ember#release'
+      },
+      resolutions: {
+        ember: 'release'
       }
     },
     {
       name: 'ember-beta',
       dependencies: {
-        'ember': 'components/ember#beta'
+        ember: 'components/ember#beta'
       },
       resolutions: {
-        'ember': 'beta'
+        ember: 'beta'
       }
     },
     {
       name: 'ember-canary',
       dependencies: {
-        'ember': 'components/ember#canary'
+        ember: 'components/ember#canary'
       },
       resolutions: {
-        'ember': 'canary'
+        ember: 'canary'
       }
     }
   ]
