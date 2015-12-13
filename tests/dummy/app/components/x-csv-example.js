@@ -16,7 +16,7 @@ Jesee,Pinkman,chili-p@example.com`,
       header: this.get('useHeaders')
     });
     this.get('parseErrors').setObjects(result.errors);
-    return '\n' + JSON.stringify(result.data, null, 2);
+    return `\n ${JSON.stringify(result.data, null, 2)}`;
   }),
 
   init() {
