@@ -1,7 +1,7 @@
 {
   "name": "ember-papaparse",
   "version": "0.0.3",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Papaparse.js for Ember.js apps",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/suchitadoshi1987/ember-papaparse.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Suchita Doshi",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -34,6 +34,7 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
+    "ember-suave": "~1.2.0",
     "ember-try": "~0.0.8"
   },
   "keywords": [

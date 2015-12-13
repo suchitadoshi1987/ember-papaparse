@@ -1,7 +1,7 @@
-# Ember-papaparse
+# ember-papaparse
 
 [![Build Status](https://travis-ci.org/suchitadoshi1987/ember-papaparse.svg)](https://travis-ci.org/suchitadoshi1987/ember-papaparse)
-An ember-cli shim for [papaparser.js](http://papaparse.com/), allowing it to be consumed as an ES6 module
+An ember-cli shim for [papaparse.js](http://papaparse.com/), allowing it to be consumed as an ES6 module
 
 ```js
 import PapaParse from 'papaparse';

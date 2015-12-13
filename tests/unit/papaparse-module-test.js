@@ -3,7 +3,7 @@ import PapaParse from 'papaparse';
 
 module('Papaparse as an ES6 module');
 
-// Replace this with your real tests.
 test('it is a valid module', function(assert) {
-	assert.ok(PapaParse);
+  assert.ok(PapaParse, 'module export is truthy');
+  assert.equal(typeof PapaParse.parse, 'function', 'module has a "parse" function');
 });

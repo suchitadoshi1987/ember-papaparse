@@ -1,0 +1,20 @@
+.x-csv-example {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.x-csv-example textarea {
+  width: 95%;
+  min-height: 80px;
+  border: 1px solid #999;
+}
+
+.x-csv-example .parse-errors .error {
+  color: red;
+}
+
+.x-csv-example .output {
+  background: #eee;
+  border: 1px solid #999;
+  padding: 8px;
+}

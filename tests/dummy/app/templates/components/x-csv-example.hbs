@@ -1,0 +1,22 @@
+<h4>CSV content</h4>
+
+{{textarea class="csv-source" value=csvSource}}
+<p>
+{{input type="checkbox" checked=useHeaders}} Use header row
+</p>
+
+
+{{#if parseErrors.length}}
+<h4>Parse Errors: </h4>
+<ul class='parse-errors'>
+  {{#each parseErrors as |error|}}
+  <li class="error">{{error.message}}</li>
+  {{/each}}
+</ul>
+{{/if}}
+<h4>Parsed result</h4>
+
+<pre class='output'>
+  {{parsedResult}}
+</pre>
+
