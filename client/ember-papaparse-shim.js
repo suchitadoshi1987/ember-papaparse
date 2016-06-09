@@ -9,5 +9,19 @@
     });
   }
 
-  generateModule('papaparse', { 'default': Papa });
+  generateModule('papaparse', {
+    'default': typeof FastBoot === 'undefined' ? Papa : {
+      parse: function() {
+        return {
+          data: [],
+          errors: [],
+          meta: {}
+        };
+      },
+      unparse: function() {
+        return '';
+      },
+      process: function() {}
+    }
+  });
 })();

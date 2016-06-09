@@ -8,10 +8,10 @@ module.exports = {
   included: function(app) {
     app.import(app.bowerDirectory + '/papaparse/papaparse.js');
     app.import('vendor/ember-papaparse-shim.js', {
-        exports: {
-          papaparse: ['default']
-        }
-      });
+      exports: {
+        papaparse: ['default']
+      }
+    });
   },
 
   treeForVendor: function() {
