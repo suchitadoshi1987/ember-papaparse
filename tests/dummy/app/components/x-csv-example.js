@@ -11,8 +11,8 @@ Jesee,Pinkman,chili-p@example.com`,
   parseErrors: null,
   useHeaders: false,
   parsedResult: computed('csvSource', 'useHeaders', function() {
-    const src = this.get('csvSource');
-    const result = Papa.parse(src, {
+    let src = this.get('csvSource');
+    let result = Papa.parse(src, {
       header: this.get('useHeaders')
     });
     this.get('parseErrors').setObjects(result.errors);
