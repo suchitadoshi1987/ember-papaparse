@@ -1,6 +1,6 @@
 {
   "name": "ember-papaparse",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Papaparse.js for Ember.js apps",
   "keywords": [
     "ember-addon"
