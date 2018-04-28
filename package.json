@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Papaparse.js for Ember.js apps",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "csv",
+    "csv parser",
   ],
   "license": "MIT",
   "author": "Suchita Doshi",
