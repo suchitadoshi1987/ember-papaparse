@@ -1,11 +1,11 @@
 {
   "name": "ember-papaparse",
   "version": "1.0.0",
-  "description": "Papaparse.js for Ember.js apps",
+  "description": "Papaparse.js - a fast csv (or delimited text) parser - for Ember.js apps",
   "keywords": [
     "ember-addon",
     "csv",
-    "csv parser",
+    "csv parser"
   ],
   "license": "MIT",
   "author": "Suchita Doshi",
